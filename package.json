@@ -11,6 +11,7 @@
   "dependencies": {
     "@thesysai/genui-sdk": "^0.6.26",
     "next": "15.3.5",
+    "openai": "^5.8.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
