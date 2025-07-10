@@ -1,7 +1,8 @@
+'use client'
+
+import '@crayonai/react-ui/styles/index.css'
+import { C1Chat } from '@thesysai/genui-sdk'
+
 export default function Home() {
-  return (
-    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
-      hey
-    </div>
-  )
+  return <C1Chat theme={{ mode: 'dark' }} apiUrl="/api/chat" />
 }
